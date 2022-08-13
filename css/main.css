@@ -1,10 +1,4 @@
 
-
-body{
-    margin: 0px
-}
-
-
 /* Hereo Styling starts here*/
 
 .main__section1--backgroundcolor{
@@ -19,36 +13,42 @@ background-color: #FEFAF5;
     justify-content: space-around ;
     padding:4rem;
     padding-top: 2rem;
-    align-items: center
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .main__section1--h2{
 
-    width: 400px;
+    max-width: 25rem;
+    min-width: 25rem;
     color: #335576; 
 
 }
 
 .main__section1--paragraph{
-    width: 550px
+    width: 34.375rem
 }
 
 .locations__title{
     Position: absolute;
     bottom: 0px;
-    right: 10px;
+    right: 0.625rem;
     color: white;
     font-size: 3rem;
 
 }
+button:hover{
+transform:scale(1.2);
+}
 
-button{
+button {
     color: white;
     background-color: #DB7A4E;
     padding:.5rem 2rem .5rem 2rem;
     border: none;
-    border-radius: 15px;
-    font-weight: 500;
+    border-radius: 0.9375rem;
+    font-weight: 500; 
+    
    
 }
 
@@ -57,6 +57,7 @@ button{
 .main__section2--h3{
 
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-between;
     color: #335576; 
     padding-left: 4rem;
@@ -70,6 +71,7 @@ button{
     justify-content: center;
     gap: 3rem;
     padding-bottom: 1rem;
+    flex-wrap: wrap;
     
 }
 
@@ -111,8 +113,9 @@ right: 20px
 .locations__card--hawaii{ 
     
     height: 25rem;
-    width:18.75rem;
-    border-radius: 5px;
+    max-width :18.75rem;
+    min-width: 18.75rem;
+    border-radius: 0.3125rem;
     margin-bottom: 3rem;
     box-shadow:  0px 4px 4px rgba(0,0,0,.25);
     background-image: url('../assets/Images/hawaii.jpg');
@@ -125,9 +128,10 @@ right: 20px
 
 .locations__card--iceland{ 
     
-    height: 400px;
-    width:270px;
-    border-radius: 5px;
+    height: 25rem;
+    max-width:18.75rem;
+    min-width: 18.75rem;
+    border-radius: 0.3125rem;
     box-shadow: 0px 4px 4px rgba(0,0,0, .25);
     background-image: url('../assets/Images/iceland.jpg');
     background-size: cover;
@@ -139,9 +143,10 @@ right: 20px
 
 .locations__card--greece{ 
     
-    height: 400px;
-    width:270px;
-    border-radius: 5px;
+    height: 25rem;
+    max-width:18.75rem;
+    min-width: 18.75rem;
+    border-radius: 0.3125rem;
     box-shadow: 0px 4px 4px rgba(0,0,0, .25);
     background-image: url('../assets/Images/greece.jpg');
     background-size: cover;
