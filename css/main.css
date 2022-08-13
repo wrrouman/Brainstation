@@ -10,7 +10,7 @@ background-color: #FEFAF5;
 .main__section1--hero{
 
     display: flex;
-    justify-content: space-around ;
+    justify-content: space-between ;
     padding:4rem;
     padding-top: 2rem;
     align-items: center;
