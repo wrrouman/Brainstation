@@ -17,6 +17,7 @@ background-color: #FEFAF5;
     flex-wrap: wrap;
 }
 
+
 .main__section1--h2{
 
     max-width: 25rem;
@@ -29,14 +30,7 @@ background-color: #FEFAF5;
     width: 34.375rem
 }
 
-.locations__title{
-    Position: absolute;
-    bottom: 0px;
-    right: 0.625rem;
-    color: white;
-    font-size: 3rem;
 
-}
 button:hover{
 transform:scale(1.2);
 }
@@ -75,23 +69,25 @@ button {
     
 }
 
-
    
 .image-text{
 
-position: absolute;
-bottom: 20px;
-right: 20px
+    position: absolute;
+    bottom: 20px;
+    right: 20px
 
     
 }
 
-.card_container{
-    position: relative;
-    color: #FEFAF5;
-    font-size: 40px;
-    font-family: inherit;
+
+.locations__title{
+    Position: absolute;
+    bottom: 0px;
+    right: 0.625rem;
+    color: white;
+    font-size: 2rem;
 }
+
 
 .locations__card--greece:hover{
     transform: scale(1.10)
