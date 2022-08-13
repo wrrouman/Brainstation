@@ -1,0 +1,152 @@
+
+
+body{
+    margin: 0px
+}
+
+
+/* Hereo Styling starts here*/
+
+.main__section1--backgroundcolor{
+
+background-color: #FEFAF5;
+
+}
+
+.main__section1--hero{
+
+    display: flex;
+    justify-content: space-around ;
+    padding:4rem;
+    padding-top: 2rem;
+    align-items: center
+}
+
+.main__section1--h2{
+
+    width: 400px;
+    color: #335576; 
+
+}
+
+.main__section1--paragraph{
+    width: 550px
+}
+
+.locations__title {
+    Position: absolute;
+    bottom: 0px;
+    right: 10px;
+    color: white;
+    font-size: 3rem;
+
+}
+
+button{
+    color: white;
+    background-color: #DB7A4E;
+    padding:.5rem 2rem .5rem 2rem;
+    border: none;
+    border-radius: 15px;
+    font-weight: 500;
+   
+}
+
+/* Recomendations and Cards*/
+
+.main__section2--h3{
+
+    display: flex;
+    justify-content:space-between;
+    color: #335576; 
+    padding-left: 4rem;
+    padding-top: 1rem;
+}
+
+
+.main__container--flex
+{
+    display:flex;
+    justify-content: center;
+    gap: 3rem;
+    padding-bottom: 1rem;
+    
+}
+
+
+   
+.image-text{
+
+position: absolute;
+bottom: 20px;
+right: 20px
+
+    
+}
+
+.card_container{
+    position: relative;
+    color: #FEFAF5;
+    font-size: 40px;
+    font-family: inherit;
+}
+
+.locations__card--greece:hover{
+    transform: scale(1.10)
+
+}
+
+
+.locations__card--hawaii:hover{
+    transform: scale(1.10)
+}
+
+.locations__card--iceland:hover {
+    transform: scale(1.10)
+
+}
+
+/*NEW CARD FORMAT*/
+
+.locations__card--hawaii{ 
+    
+    height: 400px;
+    width:270px;
+    border-radius: 5px;
+    box-shadow:  0px 4px 4px rgba(0,0,0,.25);
+    background-image: url('../assets/Images/hawaii.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    
+    
+}
+
+
+.locations__card--iceland{ 
+    
+    height: 400px;
+    width:270px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0,0,0, .25);
+    background-image: url('../assets/Images/iceland.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+    
+}
+
+.locations__card--greece{ 
+    
+    height: 400px;
+    width:270px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0,0,0, .25);
+    background-image: url('../assets/Images/greece.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+    
+}
