@@ -6,27 +6,29 @@ body {
 }
 
 /* Navigation Bar Starts Here*/
+
 header{
 
     background-color: #FFFFFF;
-  /*  color: #335576;*/ 
+ 
     
 }
-
-.nav__home--style{
-
-    text-decoration:underline;
-    text-decoration-color: #DB7A4E;
-    text-underline-offset:0.4rem;
-    text-decoration-thickness:0.2rem;
-}
-
+   
+   
 header a{
  text-decoration: none; 
  color: #335576;
 
 }
 
+.nav__home--style {
+
+ text-decoration: underline;
+ text-decoration-color: #DB7A4E;
+ text-underline-offset:0.4rem;
+text-decoration-thickness:0.2rem;
+
+}
 
 .nav__flex{
 display:flex;
@@ -38,12 +40,10 @@ gap: 1rem;
 padding-left: 4rem;
 padding-right:4rem;
 
-
 }
 
 
 .nav__wordmark{
-
  color: #335576; 
 
  
