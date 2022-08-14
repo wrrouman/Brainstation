@@ -53,8 +53,16 @@ gap: 1rem;
 padding-left: 4rem;
 padding-right:3rem;
 
+
 }
 
+
+header {
+
+    position: sticky;
+    top: 0px; 
+    z-index: 2;
+}
 
 .nav__wordmark{
  color: #335576; 
