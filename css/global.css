@@ -94,7 +94,9 @@ footer{
 .footer__nav--vertical {
     display: flex;
     flex-direction:column;
-    padding:2rem
+    padding:2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
 }
 
